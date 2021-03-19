@@ -1,0 +1,29 @@
+/*css for button*/
+.button{
+    -fx-font-veight: bold;
+    -fx-background-color: linear-gradient(#c93a01, #ef700a);
+    -fx-background-radius: 18;
+    -fx-font-size: 14;
+    -fx-text-fill:white;
+    -fx-border-radius:20;
+    -fx-border-width:2;  
+    -fx-border-color: white;
+}
+.button:hover{
+    -fx-font-veight: bold;
+    -fx-background-color: linear-gradient(#ef700a, #c93a01);
+    -fx-background-radius: 18;
+    -fx-font-size: 14;
+    -fx-text-fill:whitesmoke;
+    -fx-border-radius:20;
+    -fx-border-width:2;    
+}
+.button:pressed{
+    -fx-font-veight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 18;
+    -fx-font-size: 14;
+    -fx-text-fill:black;
+    -fx-border-radius:20;
+    -fx-border-width:2;
+}
